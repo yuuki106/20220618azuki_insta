@@ -4,6 +4,9 @@
     float: none;
 	position: static;
 }
+.phone-only{
+    display: none;
+}
 .iphonever{
     display: none;
 }
@@ -16,6 +19,7 @@ img {
 header{
     background-color: black;
     height: 70px;
+    width: 1440px;
     
 }
 .container{
@@ -37,6 +41,7 @@ header{
     background-color: grey;
     height: 70px;
     text-align: center;
+    width: 1440px;
 }
 .swich-wrapper a{
     padding: 0 75px;
@@ -54,17 +59,18 @@ header{
     opacity: 1;
 }
 .news-wrapper{
-    background-image: url(https://github.com/yuuki106/20220618azuki_insta/blob/main/back_ground.jpg?raw=true);
+    background-image: url(/img/back_ground.jpg);
     background-size: contain;
-    height: 800px;
+    height: 100%;
     border-top: 20px solid black;
+    width: 1440px;
 }
 
 .news-text{
     background-color:rgba(0, 0, 0, 0.814);
     width: 1200px;
     margin: auto;
-    height: 800px;
+    height: 100%;
     text-align: center;
 }
 .news-text h1{
@@ -83,8 +89,51 @@ header{
     padding-top: 50px;
     line-height: 35px;
 }
-.news-text img{
-    padding-top: 50px;
+.news-text h2{
+    color: white;
+    padding:50px 0;
+    font-size: 40px;
+    font-family: "azuki_font";
+}
+
+.news-wrapper ul{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.news-wrapper ul img{
+    padding-right: 40px;
+}
+
+
+.insta-icon{
+    line-height: 100px;
+    text-align: center;
+    width: 1200px;
+    padding: 30px 0;
+}
+.insta-icon a{
+    background-image: url(/img/insta_background.jpg);
+    background-size: cover;
+    padding: 20px 50px;
+    font-size: 20px;
+    border-radius: 8px;
+    opacity: 0.8;
+    box-shadow: 0 6px black;
+}
+
+.insta-icon a:hover{
+    opacity: 1;
+}
+
+.insta-icon a:active{
+    box-shadow: none;
+    position: relative;
+    top: 6px;
+}
+
+.iphone-swich{
+    display: none;
 }
 
 
