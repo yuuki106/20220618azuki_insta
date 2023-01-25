@@ -59,7 +59,7 @@ header{
     opacity: 1;
 }
 .news-wrapper{
-    background-image: url(/img/back_ground.jpg);
+    background-image: url(https://github.com/yuuki106/20220618azuki_insta/blob/main/back_ground.jpg?raw=true);
     background-size: contain;
     height: 100%;
     border-top: 20px solid black;
@@ -113,7 +113,7 @@ header{
     padding: 30px 0;
 }
 .insta-icon a{
-    background-image: url(/img/insta_background.jpg);
+    background-image: url(https://github.com/yuuki106/20220618azuki_insta/blob/main/insta_background.jpg?raw=true);
     background-size: cover;
     padding: 20px 50px;
     font-size: 20px;
