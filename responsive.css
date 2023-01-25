@@ -1,0 +1,113 @@
+@media screen and (max-width:480px) {
+
+    .container{
+        width: 100%;
+    }
+
+    .phone-only{
+        display: block;
+    }
+    header{
+        width: 100%;
+    }
+
+    .header-left img{
+        margin-left: 10px;
+    }
+
+    .header-left h3{
+        font-size: 18px;
+        border-bottom: 1px solid white;
+    }
+
+    .swich-wrapper{
+        display: none;
+    }
+
+    .news-wrapper{
+        width:100%;
+        border-top:none;
+    }
+
+    .news-text{
+        width: 100%;
+    }
+
+    .news-text h1{
+        font-size: 18px;
+        line-height: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.896);
+        color: black;
+    }
+    .news-text h1 span{
+        font-size: 25px;
+    }
+
+    .news-text p{
+        font-size: 13px;
+        width: 100%;
+        line-height: 20px;
+        padding: 30px 10px 0 10px;
+    }
+
+    .news-text h2{
+        padding: 30px 0 20px 0;
+        font-size: 25px;
+    }
+
+    .news-text img{
+        padding:20px 0;
+    }
+
+    .photo1{
+        width: 170px;
+    }
+    .photo2{
+        width: 150px;
+    }
+
+    .insta-icon{
+        width: 100%;
+    }
+
+    .insta-icon{
+        padding:10px 0;
+    }
+
+
+    .iphone-swich{
+        display: block;
+        background-color: black;
+        width: 100%;
+        border-top: 2px solid white;
+        border-bottom: 2px solid white;
+    }
+    .iphone-switchlist{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0;
+        border: 3px solid black;
+    }
+    .iphone-switchlist img{
+        width:100%;
+    }
+    .iphone-switchlist li{
+        width: 33.33%;
+        height: 72px;
+        border: 1px solid black;
+        list-style: none;
+    }
+    
+
+    footer{
+        width: 100%;
+
+    }
+
+
+
+
+
+}
